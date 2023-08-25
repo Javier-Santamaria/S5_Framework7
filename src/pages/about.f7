@@ -9,27 +9,78 @@
           <span class="if-not-md">Back</span>
         </a>
       </div>
-      <div class="title">About</div>
+      <div class="title">Tic Tac Toe</div>
     </div>
   </div>
   <div class="page-content">
-    <div class="block-title">About My App</div>
+    <div class="block-title">Tic Tac Toe</div>
     <div class="block">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni molestiae laudantium dignissimos est nobis
-        delectus nemo ea alias voluptatum architecto, amet similique, saepe iste consectetur in repellat ut minus
-        quibusdam!</p>
-      <p>Molestias et distinctio porro nesciunt ratione similique, magni doloribus, rerum nobis, aliquam quae reiciendis
-        quasi modi. Nam a recusandae, fugiat in ea voluptates fuga eius, velit corrupti reprehenderit dignissimos
-        consequatur!</p>
-      <p>Blanditiis, cumque quo adipisci. Molestiae, dolores dolorum quos doloremque ipsa ullam eligendi commodi
-        deserunt doloribus inventore magni? Ea mollitia veniam nostrum nihil, iusto doloribus a at! Ea molestiae ullam
-        delectus!</p>
+      <p>COMENZEMOS A JUGAR</p>
+      <div class="tic-tac-toe">
+        <div class="board">
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+          <label class="cell-label">
+            <input type="checkbox" class="cell-checkbox" />
+            <span class="cell-inner"></span>
+          </label>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 </template>
-<script>
-export default () => {
-  return $render;
-};
-</script>
+<!--<script>
+  export default () => {
+    return $render;
+  };
+  </script>-->
+<!--
+  export default () => {
+    const cells = document.querySelectorAll('.cell');
+    let currentPlayer = 'X';
+
+    cells.forEach(cell => {
+      cell.addEventListener('click', handleCellClick);
+    });
+
+    function handleCellClick(event) {
+      const cell = event.target;
+      if (!cell.textContent) {
+        cell.textContent = currentPlayer;
+        currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+      }
+    }
+    return $render;
+  }
+-->

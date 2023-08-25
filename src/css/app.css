@@ -1,1 +1,67 @@
 /* Your app custom styles here */
+.navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .title-large {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(17%, -88%);
+  }
+  .page-content {
+    margin-top: 0; /* Ajusta el margen superior según sea necesario */
+    padding-top: 40px; /* Ajusta el relleno superior según sea necesario */
+    background-image: url('icons/FondoMovil.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen al fondo del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
+.list-dividers-ios.links-list ul li {
+    background: RGB(0, 91, 193);
+
+    border: 3px solid white; /* Agregar un borde blanco de 2px */
+    border-radius: 15px; /* Opcional: agregar esquinas redondeadas */
+    padding: 2px; /* Opcional: agregar espacio interno */
+    
+    color: white;
+    font-size: 16px;
+    font-family: "NuevaFuente", sans-serif; /* Cambia "NuevaFuente" por el nombre de la fuente que deseas usar */
+  }
+.block{
+    font-size: 16px;
+    font-family: "NuevaFuente", sans-serif; /* Cambia "NuevaFuente" por el nombre de la fuente que deseas usar */
+}
+.title-large .title-large-text {
+    font-size: 42px; /* Ajusta este valor según tus preferencias */
+    font-family: "Consolas", Monospace; /* Cambia "NuevaFuente" por el nombre de la fuente que deseas usar */
+  }
+
+/* TIC TAC TOE */
+/* Usamos el identificador de la tabla para seleccionarla y aplicarle sus estilos. */
+table {
+  border-collapse: collapse; /*  border-collapse nos permite que las celdas de la tabla se vean separadas. */
+}
+
+/* Usamos el identificador de td para seleccionarla y aplicarle sus estilos. */
+td {
+  width: 50px; /*  width nos permite darle un ancho a las celdas de la tabla. */
+  height: 50px; /*  height nos permite darle un alto a las celdas de la tabla. */
+  text-align: center; /*  text-align nos permite centrar el texto de las celdas de la tabla. */
+  vertical-align: middle; /*  vertical-align nos permite centrar el texto de las celdas de la tabla. */
+  border: 1px solid black; /*  border nos permite darle un borde a las celdas de la tabla, el grosor es de 1px sólido y color negro. */
+  font-size: 36px; /*  font-size nos permite darle un tamaño a la fuente de las celdas de la tabla. */
+}
+
+/* Usamos el identificador de la clase X para seleccionarla y aplicarle sus estilos. */
+.X {
+  color: red; /*  color nos permite darle un color rojo. */
+}
+
+/* Usamos el identificador de la clase O para seleccionarla y aplicarle sus estilos. */
+.O {
+  color: blue; /*  color nos permite darle un color azul. */
+}

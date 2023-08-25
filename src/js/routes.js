@@ -2,6 +2,7 @@
 import HomePage from '../pages/home.f7';
 import AboutPage from '../pages/about.f7';
 import FormPage from '../pages/form.f7';
+import Tictactoe from '../pages/tictactoe.f7.html';
 
 
 import DynamicRoutePage from '../pages/dynamic-route.f7';
@@ -22,6 +23,10 @@ var routes = [
     component: FormPage,
   },
 
+  {
+    path: '/tictactoe/',
+    component: Tictactoe,
+  },
 
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
@@ -45,15 +50,15 @@ var routes = [
         var user = {
           firstName: 'Vladimir',
           lastName: 'Kharlampidi',
-          about: 'Hello, i am creator of Framework7! Hope you like it!',
+          about: 'Detrás de cada gran juego hay talentosos creadores que trabajan arduamente para brindarte experiencias únicas. Explora perfiles detallados de los creadores y conoce sus inspiraciones, procesos creativos y logros. Descubre la pasión y dedicación que hay detrás de cada juego, y conéctate con las personas que dan vida a tus aventuras virtuales. \n CONOCE MAS DE NOSOTROS ❤️',
           links: [
             {
-              title: 'Framework7 Website',
-              url: 'http://framework7.io',
+              title: 'Javier Santamaria GitHub',
+              url: 'https://github.com/Javier-Santamaria/',
             },
             {
-              title: 'Framework7 Forum',
-              url: 'http://forum.framework7.io',
+              title: 'Juan Carlos Lozano GitHub',
+              url: 'https://github.com/juancarlos5623/',
             },
           ]
         };
