@@ -13,9 +13,24 @@
           </div>
           <div class="page-content">
             <div class="block"></div>
-              <!--
-AQUI INSERTAR EL CODIGO
-              -->
+                <div class="profile-section">
+                  <div class="profile-info">
+                    <h3>Informacion del Jugador<span style="font-size: 22px;"> 🙋‍♂️</span></h3>
+                    <p>Nickname: <span style="font-size: 18px;"><strong>"Player 1"</strong></span></p>
+                    <p>Nivel: <span style="font-size: 18px;"><strong>"10"</strong></span></p>
+                  </div>
+                </div>
+                <div class="stats-section">
+                  <h3>Estadísticas<span style="font-size: 22px;"> 📊</span></h3>
+                  <p>Partidas Jugadas "Tic-Tac-Toe": <br/><span style="font-size: 18px;"><strong>"500"</strong></span></p>
+                  <p>Partidas Ganadas "Memoria": <br/><span style="font-size: 18px;"><strong>"200"</strong></span></p>
+                  <p>Puntuación Total "Golpea al Topo": <br/><span style="font-size: 18px;"><strong>"5000"</strong></span></p>
+            <div class="block"></div>
+                  <h3>Logros<span style="font-size: 22px;"> 🏆</span></h3>
+                    <li><span style="font-size: 16px;"><strong>Logro 1: </strong></span>¡Desbloqueado!</li>
+                    <li><span style="font-size: 16px;"><strong>Logro 2: </strong></span>¡Desbloqueado!</li>
+                    <li><span style="font-size: 16px;"><strong>Logro 3: </strong></span>Bloqueado</li>
+                </div>
           </div>
         </div>
       </div>
