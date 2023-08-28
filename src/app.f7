@@ -8,11 +8,14 @@
           <div class="navbar">
             <div class="navbar-bg"></div>
             <div class="navbar-inner">
-              <div class="title">Left Panel</div>
+              <div class="title1">MENU</div>
             </div>
           </div>
           <div class="page-content">
-            <div class="block">Left panel content goes here</div>
+            <div class="block"></div>
+              <!--
+AQUI INSERTAR EL CODIGO
+              -->
           </div>
         </div>
       </div>

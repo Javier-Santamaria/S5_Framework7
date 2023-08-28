@@ -1,7 +1,9 @@
 <template>
   <html lang="en">
+    <head>
+      <script src="../js/tictactoe.js"></script>
+    </head>
   <body>
-    <script src="../js/tictactoe.js"></script>
   </body>
   <div class="page" data-name="about">
     <div class="navbar">
@@ -13,35 +15,31 @@
             <span class="if-not-md">Back</span>
           </a>
         </div>
-        <div class="title">Tic Tac Toe</div>
+        <div class="title">Tic-Tac-Toe</div>
       </div>
     </div>
     <div class="page-content">
-      <div class="block-title">Tic Tac Toe</div>
       <div class="block">
-        <p>COMENZEMOS A JUGAR</p>
+        <p style="text-align: center;"><strong><span style="font-size: 25px;">¡Bienvenido a Tic-Tac-Toe! </span></strong><br/>¿Podrás vencer a tu oponente?</p>
         <div class="tic-tac-toe">
-          <table class="board">
-              <!-- TR es de table row (fila de tabla) -->
-              <tr>
-                <td id="0"></td>
-                <!-- TD es de table data (datos de tabla) -->
-                <td id="1"></td>
-                <td id="2"></td>
-              </tr>
-              <tr>
-                <td id="3"></td>
-                <td id="4"></td>
-                <td id="5"></td>
-              </tr>
-              <tr>
-                <td id="6"></td>
-                <td id="7"></td>
-                <td id="8"></td>
-              </tr>
-            </table>
+          <div class="board">
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+          </div>
+        <button id="restart">Reiniciar</button>
         </div>
       </div>
+      <div class="popup hide">
+        <p id="message">Sample Message</p>
+        <button id="new-game">Nuevo Juego</button>
+    </div>
     </div>
   </div>
   </html>

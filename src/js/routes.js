@@ -2,7 +2,9 @@
 import HomePage from '../pages/home.f7';
 import AboutPage from '../pages/about.f7';
 import FormPage from '../pages/form.f7';
+import Golpeaaltopo from '../pages/golpeaaltopo.f7.html';
 import Tictactoe from '../pages/tictactoe.f7.html';
+import Memoria from '../pages/memoria.f7.html';
 
 
 import DynamicRoutePage from '../pages/dynamic-route.f7';
@@ -29,6 +31,16 @@ var routes = [
   },
 
   {
+    path: '/golpeaaltopo/',
+    component: Golpeaaltopo,
+  },
+
+  {
+    path: '/memoria/',
+    component: Memoria,
+  },
+
+  {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
     component: DynamicRoutePage,
   },
@@ -50,14 +62,14 @@ var routes = [
         var user = {
           firstName: 'Vladimir',
           lastName: 'Kharlampidi',
-          about: 'Detrás de cada gran juego hay talentosos creadores que trabajan arduamente para brindarte experiencias únicas. Explora perfiles detallados de los creadores y conoce sus inspiraciones, procesos creativos y logros. Descubre la pasión y dedicación que hay detrás de cada juego, y conéctate con las personas que dan vida a tus aventuras virtuales. \n CONOCE MAS DE NOSOTROS ❤️',
+          about: 'Detrás de cada gran App existen talentosos creadores que trabajan arduamente para brindarte experiencias únicas. Explora nuestros perfiles detallados para conocer el proceso creativo y logros. Descubre la pasión y dedicación que hay detrás de esta App y conéctate con las personas que dan vida a tus aventuras virtuales. \n CONOCE MAS DE NOSOTROS ❤️',
           links: [
             {
-              title: 'Javier Santamaria GitHub',
+              title: '🎉Javier Santamaria "GitHub"🎉',
               url: 'https://github.com/Javier-Santamaria/',
             },
             {
-              title: 'Juan Carlos Lozano GitHub',
+              title: '💡Juan Carlos Lozano "GitHub"💡',
               url: 'https://github.com/juancarlos5623/',
             },
           ]

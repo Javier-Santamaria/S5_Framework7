@@ -14,31 +14,40 @@
         </div>
       </div>
     </div>
-    <!-- Toolbar-->
-    <div class="toolbar toolbar-bottom">
-      <div class="toolbar-inner">
-        <a href="#" class="link">Left Link</a>
-      </div>
-    </div>
     <!-- Scrollable page content-->
     <div class="page-content">
       <div class="block">
-        <p><br/><strong>¡Explora, Juega y Disfruta!</strong>Te damos la bienvenida a <strong>PLAYBOX</strong>, donde tus habilidades te llevarán a la victoria.</p>
+        <p><br/><strong>¡Explora, Juega y Disfruta! </strong>Te damos la bienvenida a <strong>PLAYBOX</strong>, donde tus habilidades te llevarán a la victoria.</p>
       </div>
-      <div class="block-title">Navigation</div>
+      <div class="block-title"><span style="font-size: 23px;"><strong>JUEGOS</strong></span></div>
       <div class="list list-strong inset list-dividers-ios">
-        <ul>
+        <ul class="game-list">
           <li>
             <a href="/tictactoe/" class="item-content item-link">
               <div class="item-inner">
-                <div class="item-title">Tic Tac Toe</div>
+                <div class="game-icon tic-tac-toe-icon"></div>
+                <div class="item-title"><span style="font-size: 19px;">Tic-Tac-Toe</span></div>
               </div>
             </a>
           </li>
+        </ul>
+        
+        <ul class="game-list">
           <li>
-            <a href="/form/" class="item-content item-link">
+            <a href="/golpeaaltopo/" class="item-content item-link">
               <div class="item-inner">
-                <div class="item-title">Form</div>
+                <div class="game-icon golpea-altopo-icon"></div>
+                <div class="item-title"><span style="font-size: 19px;">Golpea Al Topo</span></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <ul class="game-list">
+          <li>
+            <a href="/memoria/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="game-icon memoria-icon"></div>
+                <div class="item-title"><span style="font-size: 19px;">Memoria</span></div>
               </div>
             </a>
           </li>
@@ -58,15 +67,21 @@
         <a href="#" class="button button-fill panel-open" data-panel="left">Left Panel</a>
       </div>
       -->
-      <div class="block-title">Information</div>
+      <div class="block-title"><span style="font-size: 23px;"><strong>INFORMACION</strong></span></div>
       <div class="list list-strong inset list-dividers-ios links-list">
-        <ul>
+        <ul class="info1">
           <li>
-            <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Reglas e Instrucciones</a>
+            <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Instrucciones y Consejos</a>
           </li>
+        </ul>
+        
+        <ul class="info1">
           <li>
             <a href="/load-something-that-doesnt-exist/">Mejoras y Actualizaciones</a>
           </li>
+        </ul>
+        
+        <ul class="info1">
           <li>
             <a href="/request-and-load/user/123456/">Equipo de Diseño y Desarrollo</a>
           </li>
